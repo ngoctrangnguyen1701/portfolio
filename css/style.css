@@ -58,7 +58,7 @@ header .header__avatar-small {
   width: 220px;
   border-radius: 50%;
   margin: auto auto;
-  background-image: url("/images/avatar.jpg");
+  background-image: url("../images/avatar.jpg");
   background-position: center left;
   background-size: cover;
 }
@@ -298,7 +298,8 @@ footer a {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
